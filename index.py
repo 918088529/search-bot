@@ -15,7 +15,7 @@ bot = Bot(TOKEN)
 
 def welcome(update, context) -> None:
     update.message.reply_text(f"Hello {update.message.from_user.first_name},I Can Search Any Movie From Google Website's But Cannot Index Series🥳 \n"
-                              f" 🏴Drop Any Movie Name's Previous Version Had Moves To 👉 @Mdisk_Link_Downloader_Bot 💥")
+                              f" 🏴Join Our Main Channel 👉 @all_language_movies11 💥 Send Any Movie Name And See Magic")
 
 
 
@@ -35,7 +35,7 @@ def find_movie(update, context):
         reply_markup = InlineKeyboardMarkup(keyboards)
         search_results.edit_text('Searched via Black Market Fed...Tap Below 👇 To Get Links 🔥 🔗', reply_markup=reply_markup)
     else:
-        search_results.edit_text('Sorry No Results Are Found Please Do Understand I cannot Index Web Series! Visit @blackest_harbour & Search There!')
+        search_results.edit_text('Sorry No Results Found, Please Check Spelling And Search Again ! Visit @all_language_movies11 & Join Channel')
 
 
 def movie_result(update, context) -> None:
